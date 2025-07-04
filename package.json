@@ -1,0 +1,60 @@
+{
+  "name": "eaglepost",
+  "version": "0.0.0",
+  "repository": "https://github.com/LeviLovie/eaglepost",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src",
+    "compile": "tsc --jsx react --noEmit -p .",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "3.10.2",
+    "@emotion/core": "11.0.0",
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.5",
+    "@fontsource/inter": "5.0.18",
+    "@fontsource/roboto": "5.0.13",
+    "@mui/icons-material": "5.15.16",
+    "@mui/material": "5.15.16",
+    "@sentry/react": "7.113.0",
+    "bootstrap": "^5.3.3",
+    "react": "18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "18.3.1",
+    "react-markdown": "9.0.1",
+    "react-router-dom": "6.23.0",
+    "react-syntax-highlighter": "15.5.0",
+    "sass": "^1.77.2",
+    "ts-md5": "1.3.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "11.11.0",
+    "@types/node": "20.12.8",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@types/react-syntax-highlighter": "15.5.13",
+    "babel-plugin-transform-vite-meta-env": "1.0.3",
+    "prettier": "3.2.5",
+    "raw-loader": "4.0.2",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5",
+    "vite": "5.2.11",
+    "vite-plugin-checker": "0.6.4",
+    "vite-plugin-markdown": "2.2.0",
+    "vite-plugin-svgr": "4.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
